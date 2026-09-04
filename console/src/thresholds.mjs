@@ -1,6 +1,6 @@
 // Gauge status thresholds. Values are percentages (0–100).
 export const THRESHOLDS = {
-  cpu: { warn: 65, crit: 8.0 },
+  cpu: { warn: 65, crit: 80 },
   mem: { warn: 70, crit: 85 },
 };
 
